@@ -15,7 +15,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  
+
+  <!-- The Poston Legacy: How My Family Gave a Name to a South Carolina Town -->
+  <url>
+    <loc>https://www.postonpreserve.com/founding</loc>
+    <lastmod>2025-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Poston Foundation Page (Direct Link) -->
   <url>
     <loc>https://www.thepostonfoundation.org</loc>
