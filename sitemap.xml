@@ -8,9 +8,9 @@
     <priority>1.0</priority>
   </url>
   
-  <!-- Donate Page (Redirects to the Poston Foundation) -->
+  <!-- Fleetwood Moody Memorial Article Blog Post Page (Redirects to the Poston Foundation) -->
   <url>
-    <loc>https://www.postonpreserve.com/donate</loc>
+    <loc>https://www.postonpreserve.com/fleetwood-moody</loc>
     <lastmod>2025-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
