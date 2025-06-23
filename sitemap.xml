@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <!-- Homepage -->
   <url>
     <loc>https://www.postonpreserve.com/</loc>
@@ -7,16 +8,16 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-  
-  <!-- Fleetwood Moody Memorial Article Blog Post Page (Redirects to the Poston Foundation) -->
+
+  <!-- In Memory of Fleetwood Moody -->
   <url>
     <loc>https://www.postonpreserve.com/fleetwood-moody</loc>
     <lastmod>2025-06-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
-  <!-- The Poston Legacy: How My Family Gave a Name to a South Carolina Town -->
+  <!-- The Poston Legacy Article -->
   <url>
     <loc>https://www.postonpreserve.com/founding</loc>
     <lastmod>2025-06-21</lastmod>
@@ -24,11 +25,20 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Poston Foundation Page (Direct Link) -->
+  <!-- Chakhead Music Tribute (Optional addition if linked) -->
+  <url>
+    <loc>https://www.postonpreserve.com/legacy-track</loc>
+    <lastmod>2025-06-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Poston Foundation (External) -->
   <url>
     <loc>https://www.thepostonfoundation.org</loc>
     <lastmod>2025-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+
 </urlset>
