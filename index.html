@@ -6,26 +6,18 @@
   <title>The Poston Preserve – Manning, SC</title>
   <meta name="description" content="A private conservation and recreation property in Manning, SC. Hosts youth hunting and fishing events through The Poston Foundation." />
   <link rel="canonical" href="https://postonpreserve.com" />
-
-  <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="The Poston Preserve – Manning, SC">
   <meta property="og:description" content="Located in Manning, SC, The Poston Preserve is a private conservation property hosting youth hunting and fishing retreats through The Poston Foundation.">
   <meta property="og:url" content="https://postonpreserve.com">
   <meta property="og:image" content="https://postonpreserve.com/poston-logo.png">
-
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="The Poston Preserve – Manning, SC">
   <meta name="twitter:description" content="Outdoor retreats and conservation for underprivileged youth in South Carolina. Hosted by The Poston Foundation.">
   <meta name="twitter:image" content="https://postonpreserve.com/poston-logo.png">
-
-  <!-- Favicon -->
-<link rel="icon" href="/favicon.ico">
-
+  <link rel="icon" href="/favicon.ico">
   <link rel="manifest" href="/manifest.json">
-
-  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -205,63 +197,85 @@
   ]
 }
 </script>
-
-
-
   <style>
     body {
       margin: 0;
-      padding: 0;
-      background: #f4f4f4;
-      font-family: Georgia, serif;
-      color: #333;
-      text-align: center;
+      font-family: 'Merriweather', serif;
+      background: #f9f9f9;
+      color: #2d2d2d;
     }
+
     header {
-      padding: 40px 20px 10px;
+      text-align: center;
+      padding: 30px 20px 10px;
     }
-    img.logo {
-      max-width: 220px;
+
+    .site-logo {
+      max-width: 160px;
       height: auto;
     }
-    h1 {
-      font-size: 2em;
-      margin: 20px 0 10px;
+
+    .hero-section {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(to bottom, #ffffff, #eef4f1);
     }
-    p {
-      max-width: 600px;
-      margin: 0 auto 30px;
-      padding: 0 20px;
-      font-size: 1.1em;
+
+    .hero-section h1 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 3em;
+      color: #2C3E50;
+      margin-bottom: 0.5em;
+    }
+
+    .hero-section p {
+      font-size: 1.15em;
+      color: #555;
+      max-width: 750px;
+      margin: 0 auto 1.5em;
       line-height: 1.6;
     }
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-      padding: 20px;
+
+    .hero-section img {
+      width: 90%;
+      max-width: 820px;
+      border-radius: 10px;
+      margin: 25px auto;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     }
-    .gallery img {
-      width: 100%;
-      max-width: 400px;
+
+    .cta-button {
+      display: inline-block;
+      background-color: #2E8B57;
+      color: white;
+      padding: 14px 30px;
       border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      font-size: 1.1em;
+      text-decoration: none;
+      margin: 20px auto;
+      transition: background 0.3s ease;
     }
-    footer {
-      background: #222;
-      color: #ccc;
-      padding: 20px 10px;
-      font-size: 0.9em;
+
+    .cta-button:hover {
+      background-color: #256d47;
     }
+
+    .info-section {
+      font-size: 1.1em;
+      color: #34495E;
+      margin-top: 30px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     .map-container {
       position: relative;
       overflow: hidden;
-      padding-top: 56.25%; /* 16:9 aspect ratio */
-      height: 0;
+      padding-top: 56.25%;
       max-width: 100%;
-      background: transparent;
     }
+
     .map-container iframe {
       position: absolute;
       top: 0;
@@ -270,152 +284,83 @@
       height: 100%;
       border: 0;
     }
-    .hero-section {
-      background-color: #f6f6f6;
-      padding: 60px 20px;
+
+    footer {
+      background: #1e1e1e;
+      color: #bbb;
+      padding: 20px;
+      font-size: 0.95em;
       text-align: center;
     }
-    .hero-section h1 {
-      font-size: 3em;
-      margin-bottom: 0.5em;
-      color: #2C3E50;
-    }
-    .hero-section p {
-      font-size: 1.2em;
-      color: #7F8C8D;
-      max-width: 800px;
-      margin: 0 auto 2em;
-    }
-    .hero-section img {
-      max-width: 80%;
-      border-radius: 8px;
-    }
-    .hero-section .cta-button {
-      text-decoration: none;
-      background-color: #2980B9;
+
+    .legacy-link {
+      display: inline-block;
+      background-color: #2f4f2f;
       color: #fff;
-      padding: 14px 28px;
-      font-size: 1.2em;
-      border-radius: 5px;
+      padding: 12px 24px;
+      font-size: 1.1rem;
+      font-family: Georgia, serif;
+      border-radius: 6px;
+      text-decoration: none;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
     }
-.legacy-link {
-  display: inline-block;
-  background-color: #2c3e50;
-  color: #fff;
-  padding: 12px 24px;
-  font-size: 1.1em;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-.legacy-link:hover {
-  background-color: #2980b9;
-}
-.logo-wrapper {
-  text-align: center;
-  padding-top: 20px;
-  margin-bottom: 20px;
-}
 
-.site-logo {
-  max-width: 160px;
-  height: auto;
-}
+    .legacy-link:hover {
+      background-color: #3a5f3a;
+    }
 
+    a {
+      color: #2c3e50;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
 
-  <header>
-  <div class="logo-wrapper">
-    <img src="/poston-logo.png" alt="The Poston Preserve Logo" class="site-logo">
-  </div>
+<header>
+  <img src="https://postonpreserve.com/poston-logo.png" alt="The Poston Preserve Logo" class="site-logo">
 </header>
 
+<section class="hero-section">
+  <h1>Welcome to The Poston Preserve</h1>
+  <p>A historic wildlife conservation and family heritage property located in beautiful Manning, SC. Dedicated to preserving Southern traditions, wildlife conservation, and providing outdoor mentorship to underprivileged youth.</p>
 
-  <!-- Welcome Section Above Google Map -->
-  <section class="hero-section">
-    <div style="max-width: 1100px; margin: auto;">
-      <!-- Title -->
-      <h1>Welcome to The Poston Preserve</h1>
-      <p>
-        A historic wildlife conservation and family heritage property located in beautiful Manning, SC. Dedicated to preserving Southern traditions, wildlife conservation, and providing outdoor mentorship to underprivileged youth.
-      </p>
+  <img src="https://postonpreserve.com/poston-hero.png" alt="The Poston Preserve">
 
-      <!-- Image -->
-      <div style="margin-bottom: 30px;">
-        <img src="https://postonpreserve.com/poston-hero.png" alt="The Poston Preserve">
-      </div>
-
-      <!-- Quick Info & Calls to Action -->
-      <div style="font-size: 1.2em; margin-top: 30px; color: #34495E;">
-        <p><strong>Our Mission</strong>: To offer meaningful outdoor experiences for young people while conserving the natural beauty of our region.</p>
-        <p><strong>Location:</strong> 4257 Kenwood Rd, Manning, SC 29102</p>
-          <p><strong>Email:</strong> info@postonpreserve.com</p>
-       <p><strong>Call:</strong> <a href="tel:+18033390599">+1 (803) 339-0599</a></p>
-
-
-        <p><strong>Founded:</strong> 2020 – Honoring the legacy of the Poston family’s commitment to land stewardship and community service.</p>
-      </div>
-
-<div style="text-align: center; margin: 2rem 0;">
-  <a href="/fleetwood-moody.html" 
-     style="
-       display: inline-block;
-       padding: 0.75rem 1.5rem;
-       background-color: #2f4f2f;
-       color: #fff;
-       font-family: Georgia, serif;
-       font-size: 1.1rem;
-       text-decoration: none;
-       border-radius: 6px;
-       box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-       transition: background-color 0.3s ease;
-     "
-     onmouseover="this.style.backgroundColor='#3a5f3a'"
-     onmouseout="this.style.backgroundColor='#2f4f2f'">
-    🌲 In Memory of Fleetwood Moody
-  </a>
-</div>
-
-
-      
-<div style="text-align: center; margin: 2rem 0 3rem 0;">
-  <a href="/founding.html" 
-     style="
-       display: inline-block;
-       padding: 0.75rem 1.5rem;
-       background-color: #2f4f2f;
-       color: #fff;
-       font-family: Georgia, serif;
-       font-size: 1.1rem;
-       text-decoration: none;
-       border-radius: 6px;
-       box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-       transition: background-color 0.3s ease;
-     "
-     onmouseover="this.style.backgroundColor='#3a5f3a'"
-     onmouseout="this.style.backgroundColor='#2f4f2f'">
-    🌾 Our Founding Story
-  </a>
-</div>
-
-
-  <!-- Google Map Embed, Right Above Footer -->
-  <div class="map-container">
-    <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6810402.098345584!2d-89.899265975!3d33.543199200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ff076706b040f5%3A0xb5e26880afc52d2c!2sThe%20Poston%20Preserve!5e0!3m2!1sen!2sus!4v1750555671317!5m2!1sen!2sus" 
-      width="600" 
-      height="450" 
-      allowfullscreen="" 
-      loading="lazy" 
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+  <div class="info-section">
+    <p><strong>Our Mission</strong>: To offer meaningful outdoor experiences for young people while conserving the natural beauty of our region.</p>
+    <p><strong>Location:</strong> 4257 Kenwood Rd, Manning, SC 29102</p>
+    <p><strong>Email:</strong> <a href="mailto:info@postonpreserve.com">info@postonpreserve.com</a></p>
+    <p><strong>Call:</strong> <a href="tel:+18033390599">+1 (803) 339-0599</a></p>
+    <p><strong>Founded:</strong> 2020 – Honoring the legacy of the Poston family’s commitment to land stewardship and community service.</p>
   </div>
 
-  <footer>
-    © 2025 The Poston Preserve · Manning, SC · Operated by the Poston Family
-  </footer>
+  <div style="margin: 2rem 0;">
+    <a href="/fleetwood-moody.html" class="legacy-link">🌲 In Memory of Fleetwood Moody</a>
+  </div>
+
+  <div style="margin: 2rem 0;">
+    <a href="/founding.html" class="legacy-link">🌾 Our Founding Story</a>
+  </div>
+
+</section>
+
+<div class="map-container">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6810402.098345584!2d-89.899265975!3d33.543199200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ff076706b040f5%3A0xb5e26880afc52d2c!2sThe%20Poston%20Preserve!5e0!3m2!1sen!2sus!4v1750555671317!5m2!1sen!2sus" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+<footer>
+  © 2025 The Poston Preserve · Manning, SC · Operated by the Poston Family
+</footer>
 
 </body>
 </html>
