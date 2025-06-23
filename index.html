@@ -28,12 +28,12 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
-      "@id": "https://postonpreserve.com#organization",
+      "@type": "Place",
+      "@id": "https://postonpreserve.com#place",
       "name": "The Poston Preserve",
+      "image": "https://postonpreserve.com/poston-logo.png",
+      "description": "The Poston Preserve is a family-owned conservation and outdoor recreation property in Manning, South Carolina, offering youth mentorship, hunting retreats, and wildlife education.",
       "url": "https://postonpreserve.com",
-      "logo": "https://postonpreserve.com/poston-logo.png",
-      "description": "The Poston Preserve is a family-owned conservation property in Manning, South Carolina, dedicated to wildlife conservation, historical preservation, and mentoring underserved youth through outdoor experiences.",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "4257 Kenwood Rd",
@@ -42,97 +42,76 @@
         "postalCode": "29102",
         "addressCountry": "US"
       },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "Customer Service",
-        "email": "info@postonpreserve.com",
-        "telephone": "+1-803-339-0599"
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.9467,
+        "longitude": -79.4528
       },
-      "sameAs": [
-        "https://www.facebook.com/thepostonfoundation",
-        "https://www.instagram.com/thepostonfoundation",
-        "https://thepostonfoundation.org",
-        "https://g.co/kgs/cNfqcmD",
-        "https://maps.app.goo.gl/H8RKR1Ky4yb9TYq69"
-      ],
       "founder": {
         "@type": "Person",
         "name": "Eric Chalmers Poston"
-      }
-    },
-    {
-      "@type": "BlogPosting",
-      "@id": "https://postonpreserve.com/fleetwood-moody",
-      "headline": "In Memory of Lt. Col. Fleetwood Moody Poston",
-      "description": "A tribute to Fleetwood Moody Poston, whose legacy lives on through the Poston Preserve. His life, love for the land, and teachings continue to guide our work with youth, nature, and heritage in South Carolina.",
-      "image": "https://postonpreserve.com/fleetwood.jpg",
-      "datePublished": "2025-06-22",
-      "author": {
-        "@type": "Person",
-        "name": "Eric Chalmers Poston",
-        "url": "https://ericposton.com"
       },
-      "publisher": {
+      "foundingOrganization": {
         "@type": "Organization",
         "name": "The Poston Foundation",
-        "url": "https://thepostonfoundation.org",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://static.wixstatic.com/media/2a6dbf_9aad8e11bba64604995dbdc1104b4a2a~mv2.png"
-        }
+        "url": "https://thepostonfoundation.org"
       },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://postonpreserve.com/fleetwood-moody"
-      }
+      "sameAs": [
+        "https://g.co/kgs/jFvSNkp",
+        "https://maps.app.goo.gl/MXwDYUirGEwBbxnL7",
+        "https://www.instagram.com/thepostonfoundation",
+        "https://www.facebook.com/thepostonfoundation"
+      ],
+      "priceRange": "$",
+      "openingHours": "Mo-Su 09:00-17:00",
+      "keywords": "wildlife preserve, hunting, fishing, youth charity, South Carolina, outdoor recreation"
     },
     {
-      "@type": "Place",
-      "name": "Poston, South Carolina",
-      "description": "A rural community in Florence County tied to farming, conservation, and family heritage.",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Poston",
-        "addressRegion": "SC",
-        "addressCountry": "US"
+      "@type": "Organization",
+      "@id": "https://thepostonfoundation.org",
+      "name": "The Poston Foundation",
+      "url": "https://thepostonfoundation.org",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://static.wixstatic.com/media/2a6dbf_9aad8e11bba64604995dbdc1104b4a2a~mv2.png"
       },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 33.864,
-        "longitude": -79.509
+      "founder": {
+        "@type": "Person",
+        "name": "Eric Chalmers Poston"
+      },
+      "foundingDate": "2021",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Poston",
+          "addressRegion": "SC",
+          "addressCountry": "US"
+        }
+      },
+      "description": "A nonprofit promoting outdoor education, civil rights, and charitable engagement for youth."
+    },
+    {
+      "@type": "SocialMediaPosting",
+      "@id": "https://www.facebook.com/fleetwoodmoody",
+      "datePublished": "2025-03-04",
+      "headline": "Honoring Fleetwood Moody Poston — A Legacy That Lives On",
+      "articleBody": "Our grandfather, Lt. Col. Fleetwood Moody Poston, shaped more than our family — he shaped our mission. His memory lives on through The Poston Preserve and everything we build in his name.",
+      "author": {
+        "@type": "Person",
+        "name": "Eric Poston",
+        "url": "https://www.ericposton.com"
+      },
+      "sharedContent": {
+        "@type": "ImageObject",
+        "contentUrl": "https://postonpreserve.com/images/fleetwood-poston.jpg",
+        "caption": "Lt. Col. Fleetwood Moody Poston — Legacy, Honor, and Southern Soil"
       }
     }
   ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Welcome to The Poston Preserve – Our Family’s Legacy in Conservation",
-  "description": "The Poston Preserve is a private conservation and recreation property in Manning, SC, operated by the Poston family and The Poston Foundation. We provide outdoor experiences and charitable retreats for youth and families.",
-  "image": "https://postonpreserve.com/poston-hero.png",
-  "author": {
-    "@type": "Person",
-    "name": "Eric Chalmers Poston",
-    "url": "https://www.ericposton.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "The Poston Foundation",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://postonpreserve.com/poston-logo.png"
-    }
-  },
-  "datePublished": "2025-06-22",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://postonpreserve.com"
-  }
-}
-</script>
 
   <style>
     body {
